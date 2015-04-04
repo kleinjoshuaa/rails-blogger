@@ -35,6 +35,12 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # Require paperclip
 gem "paperclip"
 
+# Require sorcery
+gem 'sorcery'
+
+# include rateaux
+gem 'rateaux'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
